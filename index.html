@@ -43,7 +43,7 @@ for(let y=2027;y<=2045;y++)$('#year').add(new Option(y,y));for(let w=1;w<=53;w++
  'tonnage',
  'returnTime',
  'workTime',
-]forEach(k=>$('#'+k).value=a[k]||'');$('#del').style.display='';openM('editM')};$('#saveA').onclick=async()=>{let a={
+].forEach(k=>$('#'+k).value=a[k]||'');$('#del').style.display='';openM('editM')};$('#saveA').onclick=async()=>{let a={
  id:editing||crypto.randomUUID(),
  date:$('#date').value,
  shift:$('#shift').value,
